@@ -27,6 +27,8 @@ public:
 		cout << "Free places: " << freePlaces << " of " << totalPalces << endl;
 	}
 
+	// Polymprphism can realise with the two keywords: [virtual] and [override]
+
 	// you can override virtual method in derived classes
 	virtual string GetType() const 
 	{ 
